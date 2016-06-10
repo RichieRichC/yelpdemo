@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'web-console', '~> 2.0'
 gem 'spring',   group: :development
-gem 'carrierwave'
+gem 'carrierwave', github:'carrierwaveuploader/carrierwave'
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+gem "fog-aws"
+gem "figaro"
