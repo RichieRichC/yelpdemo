@@ -9,8 +9,10 @@
 </head>
 <body>
   <%= render 'layouts/navbar'%>
+  
   <div class="container-fluid">
-     <%= yield %>
+     <%= render 'layouts/jumbotron'%>
+          <%= yield %>
      <%= render 'layouts/footer' %>
   </div>
 </body>
