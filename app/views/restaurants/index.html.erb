@@ -29,7 +29,8 @@
 </table>
 
 <br>
-
+<% if user_signed_in? && current_user.admin? %>
 <%= link_to 'New Restaurant', new_restaurant_path, class:"btn btn-link"  %>
+<% end %>
 
 <center><%= image_tag "https://s3-us-west-1.amazonaws.com/yelpdemo68/yelpdemo_city_landscape.png" %></center>
